@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="ivz-prjct"
+                fetch="https://github.com/ivz-prjct" />
+
+        <remote name="ivz"
+                fetch="https://github.com/asterixiverz" />
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="ivz-prjct" revision="topaz" />
+        <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="blobs" revision="topaz" />
+        <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="ivz-prjct" revision="topaz" />
+        <project path="kernel/xiaomi/fog" name="kernel_xiaomi_fog-msm4.19" remote="ivz" revision="topaz" />
+
+        <!-- Hardware Dependencies -->
+        <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" />
+        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="topaz-865" />
+        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="topaz-legacy-component" />
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="topaz-865" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="topaz-bengal" />
+
+        <!-- AOSPA Repositories -->
+        <remove-project name="AOSPA/android_vendor_aospa" />
+        <project path="vendor/aospa" name="vendor_aospa" remote="ivz-prjct" revision="topaz">
+                <linkfile src="build.sh" dest="rom-build.sh" />
+        </project>
+        <remove-project name="AOSPA/android_frameworks_base" />
+        <project path="frameworks/base" name="aospa_frameworks_base" remote="ivz-prjct" revision="topaz" />
+
+</manifest>
