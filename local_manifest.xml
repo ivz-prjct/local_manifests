@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="ivz-prjct"
+                fetch="https://github.com/ivz-prjct" />
+
+        <remote name="ivz"
+                fetch="https://github.com/asterixiverz" />
+
+        <!-- Sync trees -->
+        <project path="device/oneplus/billie" name="device_oneplus_billie" remote="ivz-prjct" revision="fourteen-los" />
+        <project path="vendor/oneplus/billie" name="vendor_oneplus_billie" remote="ivz-prjct" revision="fourteen-los" />
+        <project path="kernel/oneplus/sm6350" name="kernel_oneplus_sm6350" remote="ivz-prjct" revision="fourteen-los" />
+
+        <!-- Hardware Dependencies -->
+        <project path="hardware/oneplus" name="hardware_oneplus" remote="ivz-prjct" revision="fourteen-los" />
+
+        <!-- Private Keys -->
+        <project path="vendor/lineage-priv/keys" name="vendor_sign" remote="ivz" revision="lineage" />
+
+</manifest>
