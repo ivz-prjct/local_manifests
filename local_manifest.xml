@@ -19,4 +19,7 @@
         <!-- Private Keys -->
         <project path=".android-certs" name="vendor_sign" remote="ivz" revision="aosp" />
 
+        <!-- Certified Props -->
+        <project path="vendor/pb/private" name="certified_props_overlay" remote="ivz" revision="main" />
+
 </manifest>
