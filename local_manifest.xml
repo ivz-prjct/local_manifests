@@ -8,6 +8,9 @@
         <remote name="ivz"
                 fetch="https://github.com/asterixiverz" />
 
+        <remove-project name="android_device_qcom_sepolicy_vndr" />
+        <remove-project name="android_hardware_lineage_interfaces" />        
+
         <!-- Sync trees -->
         <project path="device/oneplus/billie" name="device_oneplus_billie" remote="ivz-prjct" revision="fourteen-pb" />
         <project path="vendor/oneplus/billie" name="vendor_oneplus_billie" remote="ivz-prjct" revision="fourteen-pb" />
@@ -21,5 +24,9 @@
 
         <!-- Certified Props -->
         <project path="vendor/pb/private" name="certified_props_overlay" remote="ivz" revision="main" />
+
+        <!-- Sepolicy repos-->
+        <project path="device/qcom/sepolicy_vndr" name="pb_device_qcom_sepolicy_vndr" remote="ivz-prjct" revision="unity" />
+        <project path="hardware/lineage/interfaces" name="pb_hardware_lineage_interfaces" remote="ivz-prjct" revision="unity" />
 
 </manifest>
