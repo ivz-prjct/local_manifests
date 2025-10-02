@@ -16,8 +16,8 @@
 
         <!-- Google Pixel 8 Series -->
         <project name="ionutsandroidbuilds/android_device_google_akita" path="device/google/akita" revision="16.0" remote="github" />
-        <project name="ivz-prjct/device_google_shusky" path="device/google/shusky" revision="16.0" remote="github" />
-        <project name="ivz-prjct/device_google_zuma" path="device/google/zuma" revision="16.0" remote="github" />
+        <project name="ivz-prjct/device_google_shusky" path="device/google/shusky" revision="afl-16" remote="github" />
+        <project name="ivz-prjct/device_google_zuma" path="device/google/zuma" revision="afl-16" remote="github" />
         <project name="TheMuppets/proprietary_vendor_google_akita" path="vendor/google/akita" revision="lineage-23.0" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" revision="lineage-23.0" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-23.0" remote="github" clone-depth="1" />
