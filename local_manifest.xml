@@ -7,17 +7,17 @@
 
         <!-- Common and extra repos -->
         <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-23.0" remote="github" />
-        <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" revision="16.0" remote="gitlab" clone-depth="1" />
-        <project name="crdroidandroid/proprietary_vendor_google_camera" path="vendor/google/camera" revision="16.0" remote="gitlab" clone-depth="1" />
+        <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" revision="16.0" remote="gitlab" />
+        <project name="crdroidandroid/proprietary_vendor_google_camera" path="vendor/google/camera" revision="16.0" remote="gitlab" />
 
         <!-- Google Pixel 8 Series -->
-        <project name="ionutsandroidbuilds/android_device_google_akita" path="device/google/akita" revision="16.0" remote="github" />
+        <project name="ivz-prjct/device_google_akita" path="device/google/akita" revision="afl-16" remote="github" />
         <project name="ivz-prjct/device_google_shusky" path="device/google/shusky" revision="afl-16" remote="github" />
         <project name="ivz-prjct/device_google_zuma" path="device/google/zuma" revision="afl-16" remote="github" />
         <project name="TheMuppets/proprietary_vendor_google_akita" path="vendor/google/akita" revision="lineage-23.0" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" revision="lineage-23.0" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-23.0" remote="github" clone-depth="1" />
-        <project name="ionutsandroidbuilds/android_device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.0" remote="github" clone-depth="1" />
-        <project name="ionutsandroidbuilds/android_device_google_akita-kernels" path="device/google/akita-kernels" revision="16.0" remote="github" clone-depth="1" />
+        <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.0" remote="github" />
+        <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.0" remote="github" />
 
 </manifest>
