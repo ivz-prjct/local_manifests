@@ -2,12 +2,6 @@
 
 <manifest>
 
-        <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
-
-        <remote  name="gitea"
-           fetch="https://gitea.com/" />   
-
         <!-- Common and extra repos -->
         <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-23.0" remote="github" />
         <project name="crdroidandroid/proprietary_vendor_google_camera" path="vendor/google/camera" revision="16.0" remote="gitlab" />
