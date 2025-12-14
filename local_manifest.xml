@@ -3,8 +3,8 @@
 <manifest>
 
         <!-- Sync trees -->
-        <project path="device/samsung/beyond2lte" name="linux4-bringup-priv/android_device_samsung_beyond2lte" remote="github" revision="lineage-23.0" />
-        <project path="device/samsung/exynos9820-common" name="linux4-bringup-priv/android_device_samsung_exynos9820-common" remote="github" revision="lineage-23.0" />
+        <project path="device/samsung/beyond2lte" name="ivz-prjct/device_samsung_beyond2lte" remote="github" revision="afl-16" />
+        <project path="device/samsung/exynos9820-common" name="ivz-prjct/device_samsung_exynos9820-common" remote="github" revision="afl-16" />
         <project path="vendor/samsung/beyond2lte" name="linux4-bringup-priv/android_vendor_samsung_beyond2lte" remote="github" revision="lineage-23.0" />
         <project path="vendor/samsung/exynos9820-common" name="linux4-bringup-priv/android_vendor_samsung_exynos9820-common" remote="github" revision="lineage-23.0" />
         <project path="kernel/samsung/exynos9820" name="linux4-bringup-priv/android_kernel_samsung_exynos9820" remote="github" revision="lineage-23.0" />
