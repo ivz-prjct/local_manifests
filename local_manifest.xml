@@ -21,4 +21,6 @@
         <project path="hardware/samsung_slsi-linaro/interfaces" name="linux4-bringup-priv/android_hardware_samsung_slsi-linaro_interfaces" remote="github" revision="lineage-23.0" />
         <project path="hardware/samsung_slsi-linaro/openmax" name="linux4-bringup-priv/android_hardware_samsung_slsi-linaro_openmax" remote="github" revision="lineage-23.0" />
 
+        <project path="vendor/afterlife-priv" name="RdW-afk/vendor_afterlife-priv" remote="github" revision="bkl" />
+
 </manifest>
