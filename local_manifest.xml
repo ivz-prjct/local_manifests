@@ -2,6 +2,9 @@
 
 <manifest>
 
+        <remote name="github"
+          fetch="https://github.com/" />
+
         <!-- Sync trees -->
         <project path="device/samsung/beyond2lte" name="ivz-prjct/device_samsung_beyond2lte" remote="github" revision="afl-16" />
         <project path="device/samsung/exynos9820-common" name="ivz-prjct/device_samsung_exynos9820-common" remote="github" revision="afl-16" />
