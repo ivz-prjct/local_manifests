@@ -5,8 +5,8 @@
         <remote name="github"
           fetch="https://github.com/" />
 
-        <remote name="gitea"
-          fetch="https://gitea.com/" />
+        <remote name="codeberg"
+          fetch="https://codeberg.org/" />
 
         <remote name="gl"
           fetch="https://gitlab.com/" />  
@@ -22,8 +22,8 @@
         <project name="TheMuppets/proprietary_vendor_google_akita" path="vendor/google/akita" revision="lineage-23.2" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" revision="lineage-23.2" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-23.2" remote="github" clone-depth="1" />
-        <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.2" remote="gitea" clone-depth="1" />
-        <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.2" remote="gitea" clone-depth="1" />
+        <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.2" remote="codeberg" clone-depth="1" />
+        <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.2" remote="codeberg" clone-depth="1" />
 
         <!-- Replace to our GMS Repo -->
         <remove-project name="vendor_gms16" />
