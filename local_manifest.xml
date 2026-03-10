@@ -25,8 +25,12 @@
         <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.2" remote="codeberg" clone-depth="1" />
         <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.2" remote="codeberg" clone-depth="1" />
 
-        <!-- Replace to our GMS Repo -->
+        <!-- Replace some existing repos -->
         <remove-project name="vendor_gms16" />
-        <project path="vendor/gms" name="ivz-prjct/vendor-gms-afl" revision="16-qpr2" remote="gl" clone-depth="1" />
+        <project name="ivz-prjct/vendor-gms-afl" path="vendor/gms" revision="16-qpr2" remote="gl" clone-depth="1" />
+        <remove-project name="hardware_google_pixel" />
+        <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" revision="lineage-23.2" remote="LineageOS" clone-depth="1" />
+        <remove-project name="platform/hardware/google/pixel-sepolicy" />
+        <project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" revision="lineage-23.2" remote="LineageOS" clone-depth="1" />
 
 </manifest>
