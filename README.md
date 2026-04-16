@@ -2,7 +2,7 @@
 To initialize your device trees setup, use command:
 
 ```bash
-git clone -b p8s_afl-16 https://github.com/ivz-prjct/local_manifests.git .repo/local_manifests
+git clone -b p8s_ax-16 https://github.com/ivz-prjct/local_manifests.git .repo/local_manifests
 ```
 
 Then sync with ROM source or sync standalone with this command:
