@@ -3,7 +3,10 @@
 <manifest>
 
         <remote name="gl"
-          fetch="https://gitlab.com/" />  
+          fetch="https://gitlab.com/" />
+
+        <remote name="gt"
+          fetch="https://gitea.com/" />  
 
         <!-- Common and extra repos -->
         <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" revision="lineage-23.2" remote="github" />
@@ -16,7 +19,7 @@
         <project name="TheMuppets/proprietary_vendor_google_akita" path="vendor/google/akita" revision="lineage-23.2" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" revision="lineage-23.2" remote="github" clone-depth="1" />
         <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" revision="lineage-23.2" remote="github" clone-depth="1" />
-        <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.2" remote="gl" clone-depth="1" />
-        <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.2" remote="gl" clone-depth="1" />
+        <project name="ivz-prjct/device_google_shusky-kernels" path="device/google/shusky-kernels" revision="16.2" remote="gt" clone-depth="1" />
+        <project name="ivz-prjct/device_google_akita-kernels" path="device/google/akita-kernels" revision="16.2" remote="gt" clone-depth="1" />
 
 </manifest>
